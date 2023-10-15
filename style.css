@@ -1,6 +1,10 @@
 :root {
-    --primary-dark: black;
-    --primary-green: green;
+    --primary-dark: rgb(4, 7, 24);
+    --primary-green: rgb(61, 134, 89);
+}
+body{
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
 }
 
 h1{
@@ -9,6 +13,7 @@ h1{
 
 .container{
     width: 50%;
+    margin: auto;
 }
 
 input,
@@ -16,3 +21,30 @@ label{
     display: block;
 }
 
+label{
+    font-size: 18px;
+    padding: auto;
+}
+
+input{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-number{
+    margin-top: 1rem;
+    display: block;
+    margin: auto;
+}
+button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--primary-green);
+    color: white;
+}
